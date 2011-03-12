@@ -1,0 +1,21 @@
+Project EXENetNavi
+Version 0.0.1
+Readme Version 0.0.1
+
+There are two scripts currently in this project.
+
+page.rb
+	This is the Home Page server. Use of it requires port 2000 to be forewarded on your router. Currently there are no commands for it however, an "area" file and a "news" file must be present, even if they are blank. Sample ones are included. The area file describes your home page's setup while the news file is the BBS.
+
+pet.rb
+	This is the PET. It reads your navi name/user name from the navi file and asks for an IP address to jack into. If you don't enter one it goes to the default one. Once you have jacked in you have the following commands avaiable:
+		j: to jack out.
+		a: To view the area description again
+		u: To view active jacked-in net_navis
+		bbs: to go into bbs mode
+	BBS mode commands are:
+		d: Display list of topics
+		p: Post a new topic
+		#(a topic number): Read a specific message
+		q: Go back to normal mode
+
